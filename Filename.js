@@ -12,4 +12,4 @@ var func=function (){
 		this.style.display="none";
 	}
 }
-setInterval(func,1000)
+setInterval(func,1000);
