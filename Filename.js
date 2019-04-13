@@ -1,4 +1,4 @@
-document.body.background="black";
+document.body.style.background="black";
 var func=function (){
 	var div=document.createElement("div");
 	document.body.appendChild(div);
