@@ -15,4 +15,4 @@ var func=function (){
 		console.log(a);
 	}
 }
-setInterval(func,30);
+setInterval(func,100);
