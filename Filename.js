@@ -6,8 +6,8 @@ var func=function (){
 	div.style.height=200+"px";
 	div.style.background="green";
 	div.style.position="absolute";
-	div.style.top=Math.round(Math.random()*innerHeight)-200+"px";
-	div.style.left=Math.round(Math.random()*innerWidth)-200+"px";
+	div.style.top=Math.round(Math.random()*innerHeight)-100+"px";
+	div.style.left=Math.round(Math.random()*innerWidth)-100+"px";
 	div.onclick=function (){
 		this.style.display="none";
 	}
