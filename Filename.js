@@ -4,7 +4,7 @@ var func=function (){
 	document.body.appendChild(div);
 	div.style.width=200+"px";
 	div.style.height=200+"px";
-	div.style.background="lightgreen";
+	div.style.background="green";
 	div.style.position="absolute";
 	div.style.top=Math.round(Math.random()*innerHeight)-200+"px";
 	div.style.left=Math.round(Math.random()*innerWidth)-200+"px";
