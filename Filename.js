@@ -8,8 +8,8 @@ var func=function (){
 	div.style.position="absolute";
 	div.style.top=Math.round(Math.random()*innerHeight)-100+"px";
 	div.style.left=Math.round(Math.random()*innerWidth)-100+"px";
-	div.onclick=function (){
+	div.onmouseover=function (){
 		this.style.display="none";
 	}
 }
-setInterval(func,300);
+setInterval(func,30);
